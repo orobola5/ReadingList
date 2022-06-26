@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b425cd-90d3-42b7-8a6a-66b02374c0b9" name="Changes" comment="A Book app using springboot/html" />
+    <list default="true" id="c4b425cd-90d3-42b7-8a6a-66b02374c0b9" name="Changes" comment="A Book app using springboot/html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Controller/ReadingListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Controller/ReadingListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Data/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Data/Model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Data/Repository/ReadingListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Africa/Semicolon/ReadingList/Data/Repository/ReadingListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Template.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +37,9 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2B5licttISO1dNsTNr9GpMTJAHl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +63,7 @@
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
+      "module"
     ]
   }
 }]]></component>
@@ -73,7 +83,10 @@
       <recent name="Africa.Semicolon.ReadingList" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ReadingListApplication">
+  <component name="RunManager" selected="HTTP Request.post-requests | Send POST request with json body">
+    <configuration name="post-requests | Send POST request with json body" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" requestIdentifier="Send POST request with json body" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="All in ReadingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReadingList" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.post-requests | Send POST request with json body" />
         <item itemvalue="Spring Boot.ReadingListApplication" />
         <item itemvalue="JUnit.All in ReadingList" />
         <item itemvalue="JUnit.ReadingListApplicationTest" />
@@ -127,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656203958513</updated>
       <workItem from="1656203960161" duration="12860000" />
-      <workItem from="1656221455631" duration="887000" />
+      <workItem from="1656221455631" duration="5595000" />
     </task>
     <task id="LOCAL-00001" summary="A Book app using springboot/html">
       <created>1656222245145</created>
@@ -136,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656222245146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A Book app using springboot/html">
+      <created>1656222358700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656222358700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

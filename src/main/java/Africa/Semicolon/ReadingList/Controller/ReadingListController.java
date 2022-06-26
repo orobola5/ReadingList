@@ -14,7 +14,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/")
 public class ReadingListController {
-    private final ReadingListRepository readingListRepository;
+    private ReadingListRepository readingListRepository;
 
     @Autowired
     public ReadingListController(ReadingListRepository readingListRepository){
