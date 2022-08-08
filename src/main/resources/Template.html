@@ -6,51 +6,48 @@
     <link rel ="stylesheet" th:href="@{/style.css}"/>
 </head>
 <body>
-<h2> Your Reading List</h2>
-<div th:unless="${#lists.isEmpty(books)}">
-    <d1 th:each="book : ${books}">
-        <dt class="bookHeadline">
-            <span th:text="${book.title}">Title</span> by
-            <span th:text="${book.author}">Author</span>
-            (ISBN:<span th:text="${book.isbn}">ISBN</span>)
-        </dt>
-        <dd class="bookDescription">
-            <span th:if="${book.description}"
-                  th:text="${book.description}">Description</span>
-            <span th:href="${book.description eq null}">
-                No description available
-            </span>
-        </dd>
-    </d1>
-</div>
-<div th:if="${#lists.isEmpty(books)}">
-    <p>You have no books in your book list</p>
-</div>
-<hr/>
-<h3> Add a book</h3>
-< form method="POST">
-    <Label id="title">Title:</Label>
-<label>
-    <input name="title" size="50" type="text"/>
-</label><br/>
-    <label id="author">Author:</label>
-<label>
-    <input type="text" name="author" size="50">
-</label><br/>
-    <label id="isbn">Author:</label>
-<label>
-    <input type="text" name="isbn" size="15"/>
-</label><br/>
-    <label id="description">Author:</label>
-
-<label>
+    <h2> Your Reading List</h2>
+    <div th:unless="${#lists.isEmpty(books)}">
+        <d1 th:each="book : ${books}">
+            <dt class="bookHeadline">
+                <span th:text="${book.title}">Title</span> by
+                <span th:text="${book.author}">Author</span>
+                (ISBN:<span th:text="${book.isbn}">ISBN</span>)
+            </dt>
+            <dd class="bookDescription">
+                <span th:if="${book.description}"
+                      th:text="${book.description}">Description</span>
+                <span th:href="${book.description eq null}">
+                    No description available
+                </span>
+            </dd>
+        </d1>
+    </div>
+    <div th:if="${#lists.isEmpty(books)}">
+        <p>You have no books in your book list</p>
+    </div>
+    <hr/>
+    <h3> Add a book</h3>
+    <form method="POST">
+            <Label id="title">Title:</Label>
+        <label>
+            <input type="text" name="title" size="50"/>
+        </label><br/>
+            <label id="author">Author:</label>
+        <label>
+            <input type="text" name="author" size="50"/>
+        </label><br/>
+            <label id="isbn">ISBN:</label>
+        <label>
+            <input type="text" name="isbn" size="15"/>
+        </label><br/>
+            <label id="description">Description:</label><br/>
+        <label>
 <textarea name="description" cols="80" rows="5">
 </textarea>
-</label><br/>
+        </label><br/>
+                <input type="submit"/>
+    </form>
 
-        <input type="submit"><br/>
-
-        </form>
-
-    </body>
+</body>
 </html>
